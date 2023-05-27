@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Форма отправки на почту</h1>
-    <form id="email-form">
+    <form name="contact" netlify>
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name" required><br>
 
@@ -19,7 +19,7 @@
         <textarea id="message" name="message" required></textarea><br>
 
         <button type="submit">Отправить</button>
-        <form id="email-form" action="/">
+    </form>
 
     <!-- <script>
         document.getElementById('email-form').addEventListener('submit', function (event) {
