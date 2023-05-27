@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: azure;
+    background-color: #000000;
+    color:aliceblue;
 }
 
 .main-block {
@@ -13,4 +13,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.533);
+    border-radius: 5px;
 }
