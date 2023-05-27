@@ -10,19 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $email";
 
     if (mail($to, $subject, $body, $headers)) {
-        echo "<script>";
-        echo "var modal = document.getElementById('myModal');";
-        echo "var span = document.getElementsByClassName('close')[0];";
-        echo "modal.style.display = 'block';";
-        echo "span.onclick = function() {";
-        echo "  modal.style.display = 'none';";
-        echo "}";
-        echo "window.onclick = function(event) {";
-        echo "  if (event.target == modal) {";
-        echo "    modal.style.display = 'none';";
-        echo "  }";
-        echo "}";
-        echo "</script>";
+        echo "Сообщение успешно отправлено";
     } else {
         echo "Ошибка при отправке сообщения";
     }
