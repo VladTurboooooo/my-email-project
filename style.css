@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
